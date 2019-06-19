@@ -1,1 +1,16 @@
+meta:
+  version: 1.0.0
+  name: Minimal Docker Image
+  description: A small docker image for testing shepherd
+
+recipe:
+  fetcher: GitLauncher
+  launcher: VaneLauncher
+
+  image: blah/blah
+
+  postboot: postboot
+  describe: describe
+  validate: validate
+  spec: spec.rb
 
